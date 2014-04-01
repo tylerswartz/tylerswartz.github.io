@@ -1,3 +1,9 @@
-#title{
+/*#title{
 	color:blue;
+}*/
+
+body{
+	background: url(images/GOPR0757.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-repeat:no-repeat;
 }
