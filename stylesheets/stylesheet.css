@@ -1,6 +1,6 @@
-/*#title{
-	color:blue;
-}*/
+#title{
+	position:center;
+}
 
 body{
 	background: url("/images/background.JPG") no-repeat center center fixed;
