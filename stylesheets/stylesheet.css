@@ -9,12 +9,13 @@ body{
 }
 
 .well-tgs {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
+	margin-top: -50px;
+	margin-left: -150px;
 	width: 300px;
   height: 100px;
-  margin: -50px -150px 0 0;
   text-align: center;
   color: #f5f5f5;
   padding: 2.4rem;
