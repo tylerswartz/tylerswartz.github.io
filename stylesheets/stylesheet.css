@@ -9,7 +9,7 @@ body{
 }
 
 .well-tgs {
-	position: absolute;
+	position: center;
 	top: 50%;
 	left: 50%;
 	margin-top: -50px;
