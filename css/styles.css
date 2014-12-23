@@ -122,15 +122,15 @@ nav h4:last-of-type {
 
 .portfolio {
 	position: relative;
-	height: 100%;
 	width: 100%;
-	padding-top: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
 .project {
 	width: 365px;
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-right: 20px;
 	margin-left: 20px;
 	display: inline-block;
@@ -145,6 +145,32 @@ nav h4:last-of-type {
 
 .project h4 {
 	margin-top: 10px;
+}
+
+.about-tyler {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #D6D6D6;
+}
+
+.about-text {
+	float: left;
+	padding: 50px 20px 50px 20px;
+	width: 55%;
+	font-size: 18px;
+}
+
+.thumbnails {
+	float: right;
+	margin: 68px 20px 0 0;
+	width: 210px;
+	height: 210px;
+}
+
+.thumbnails img {
+	height: 100px;
+	width: 100px;
 }
 
 
