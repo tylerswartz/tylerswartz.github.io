@@ -121,24 +121,31 @@ nav h4:last-of-type {
 }
 
 .portfolio {
-	display: inline;
+	position: relative;
+	height: 100%;
+	width: 100%;
 	padding-top: 25px;
+	text-align: center;
 }
 
 .project {
-	float: left;
-	margin-top: 25px;
-	margin-left: 25px;
-	margin-right: auto;
+	width: 365px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	text-align: left;
 }
 
 .project img {
 	height: 225px;
-	width: 300px;
+	width: 360px;
 	border: 1px solid #D6D6D6;
 }
 
-
+.project h4 {
+	margin-top: 10px;
+}
 
 
 .clear-fix:after {
