@@ -185,6 +185,36 @@ nav h4:last-of-type {
 	padding-bottom: 8px;
 }
 
+.get-in-touch {
+	width: 100%;
+	margin: 0;
+	background: #75A9F9;
+}
+
+.get-in-touch-content {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.get-in-touch-content img {
+	max-width: 100px;
+	margin: 68px 60px 68px 60px;
+}
+
+footer {
+	width: 100%;
+	background-color: #D6D6D6;
+	margin: 0px;
+	padding: 20px;
+	font-size: 10px;
+	color: black;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
 
 .clear-fix:after {
   content: ".";
