@@ -75,6 +75,11 @@ nav h4:last-of-type {
 	background-color: #D6D6D6;
 }
 
+.main-content {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .badge {
 	height: 80px;
 	width: 80px;
@@ -154,23 +159,30 @@ nav h4:last-of-type {
 	background-color: #D6D6D6;
 }
 
+.about-tyler-content {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .about-text {
 	float: left;
-	padding: 50px 20px 50px 20px;
-	width: 55%;
+	padding: 50px 20px 50px 60px;
+	width: 40%;
 	font-size: 18px;
 }
 
 .thumbnails {
 	float: right;
-	margin: 68px 20px 0 0;
-	width: 210px;
-	height: 210px;
+	margin: 68px 60px 68px 0;
+	width: 321px;
+	height: 321px;
 }
 
 .thumbnails img {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
+	padding-right: 8px;
+	padding-bottom: 8px;
 }
 
 
