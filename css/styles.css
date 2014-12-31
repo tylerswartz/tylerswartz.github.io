@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: 'Ubuntu', sans-serif; font-weight: 400;
 	box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@ header {
 
 .header-badge {
 	float: left;
-	background: #75A9F9;
+	background: #03A9F4;
 	border-radius: 50px;
 	height: 80px;
 	width: 80px;
@@ -50,7 +51,6 @@ header {
 	margin-top: 46px;
 	padding-left: 15px;
 	margin-left: 88px;
-	color: #75A9F9;
 }
 
 nav {
@@ -116,13 +116,23 @@ nav h4:last-of-type {
 }
 
 .hero-text {
-	font-size: 45px;
+	font-size: 35px;
 	text-align: center;
-	line-height: 60px;
+	line-height: 65px;
+	margin-top: 45px;
 	margin-bottom: 0px;
 	padding-bottom: 15px;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.hero-text a {
+	text-decoration: none;
+	color: black;
+}
+
+.hero-text a:hover {
+	color: #03A9F4;
 }
 
 .portfolio {
@@ -157,6 +167,7 @@ nav h4:last-of-type {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	background-color: #D6D6D6;
+	/*box-shadow: 0px 1px 10px #3d3e3d;*/
 }
 
 .about-tyler-content {
@@ -166,9 +177,10 @@ nav h4:last-of-type {
 
 .about-text {
 	float: left;
-	padding: 50px 20px 50px 60px;
+	padding: 57px 20px 50px 60px;
 	width: 40%;
-	font-size: 18px;
+	font-size: 14px;
+	line-height: 28px;
 }
 
 .thumbnails {
@@ -188,7 +200,6 @@ nav h4:last-of-type {
 .get-in-touch {
 	width: 100%;
 	margin: 0;
-	background: #75A9F9;
 }
 
 .get-in-touch-content {
@@ -198,7 +209,7 @@ nav h4:last-of-type {
 }
 
 .get-in-touch-content img {
-	max-width: 100px;
+	max-width: 65px;
 	margin: 68px 60px 68px 60px;
 }
 
