@@ -63,6 +63,10 @@ nav h4 {
 	display: inline;
 }
 
+nav h4:hover {
+	color: #03A9F4;
+}
+
 nav h4:last-of-type {
 	margin-left: 40px;
 }
