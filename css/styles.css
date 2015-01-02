@@ -189,7 +189,7 @@ nav h4:last-of-type {
 
 .thumbnails {
 	float: right;
-	margin: 68px 60px 68px 0;
+	margin: 82px 60px 68px 0;
 	width: 321px;
 	height: 321px;
 }
@@ -239,3 +239,28 @@ footer a {
   line-height: 0;
   height: 0;
 }
+
+
+
+
+/**/
+/*RESPONSIVE STYLES*/
+/**/
+
+/*Tablets*/
+@media (min-width: 481px) and (max-width: 895px) {
+
+  
+
+}
+
+
+
+/*Smartphones*/
+@media (max-width: 480px) {
+
+  
+
+}
+
+
