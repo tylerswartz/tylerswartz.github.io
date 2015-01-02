@@ -79,10 +79,10 @@ nav h4:last-of-type {
 	background-color: #D6D6D6;
 }
 
-.main-content {
+/*.main-content {
 	max-width: 900px;
 	margin: 0 auto;
-}
+}*/
 
 .badge {
 	height: 80px;
@@ -221,9 +221,12 @@ footer {
 	width: 100%;
 	background-color: #D6D6D6;
 	margin: 0px;
-	padding: 20px;
-	font-size: 10px;
+}
+
+footer p {
+	padding: 10px 0 0 20px;
 	color: black;
+	font-size: 10px;
 }
 
 footer a {
@@ -248,31 +251,66 @@ footer a {
 /**/
 
 /*Small Screen*/
-/*@media (min-width: 676px) and (max-width: 775px) {
+@media (min-width: 605px) and (max-width: 770px) {
 
 	.hero-text {
 		font-size: 30px;
 	}
   
 	.about-text {
-		padding: 30px 15px 26px 35px;
+		width: 52%;
+		padding: 40px 15px 26px 35px;
 	}
 
-}*/
+	.thumbnails {
+		width: 160px;
+		height: 320px;
+		margin: 45px 70px 45px 0;
+	}
+
+	.thumbnails img:nth-child(n+3) {
+		display: none;
+	}
+
+	.get-in-touch-content img {
+		max-width: 55px;
+		margin: 50px 55px 50px 55px;
+	}
+
+}
 
 /*Tablets*/
-@media (min-width: 481px) and (max-width: 675px) {
+@media (min-width: 411px) and (max-width: 600px) {
 
 	.hero-text {
-		font-size: 30px;
+		font-size: 22px;
 	}
-  
+	
+	.project {
+		width: 297px;
+		height: 186px;
+	} 
+
+	.project img {
+		width: 296px;
+		height: 185px;	
+	}
+
+	.about-text {
+		width: 100%;
+	}
+
+	.thumbnails {
+		display: none;
+	}
+
+
 
 }
 
 
 /*Smartphones*/
-@media (max-width: 480px) {
+@media (max-width: 410px) {
 
   
 
