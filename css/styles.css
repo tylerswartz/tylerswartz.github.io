@@ -247,13 +247,28 @@ footer a {
 /*RESPONSIVE STYLES*/
 /**/
 
-/*Tablets*/
-@media (min-width: 481px) and (max-width: 895px) {
+/*Small Screen*/
+/*@media (min-width: 676px) and (max-width: 775px) {
 
+	.hero-text {
+		font-size: 30px;
+	}
+  
+	.about-text {
+		padding: 30px 15px 26px 35px;
+	}
+
+}*/
+
+/*Tablets*/
+@media (min-width: 481px) and (max-width: 675px) {
+
+	.hero-text {
+		font-size: 30px;
+	}
   
 
 }
-
 
 
 /*Smartphones*/
