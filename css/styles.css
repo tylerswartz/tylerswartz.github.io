@@ -224,9 +224,11 @@ footer {
 }
 
 footer p {
-	padding: 10px 0 0 20px;
+	padding: 10px 0 20px 20px;
+	margin-bottom: 0px;
 	color: black;
 	font-size: 10px;
+	line-height: 20px;
 }
 
 footer a {
@@ -280,7 +282,11 @@ footer a {
 }
 
 /*Tablets*/
-@media (min-width: 411px) and (max-width: 600px) {
+@media (min-width: 411px) and (max-width: 604px) {
+
+	nav {
+  	display: none;
+  }
 
 	.hero-text {
 		font-size: 22px;
@@ -296,15 +302,32 @@ footer a {
 		height: 185px;	
 	}
 
+	.about-tyler-content {
+		padding: 10px 20px 10px 20px;
+	}
+
 	.about-text {
 		width: 100%;
+		padding: 0px;
+		float: none;
 	}
 
 	.thumbnails {
+		width: 100%;
+		height: auto;
+		float: none;
+		text-align: center;
+		margin: 30px 0px 10px 0px;
+	}
+
+	.thumbnails img:nth-child(n+3) {
 		display: none;
 	}
 
-
+	.get-in-touch-content img {
+		max-width: 55px;
+		margin: 50px 40px 50px 40px;
+	}
 
 }
 
@@ -312,7 +335,59 @@ footer a {
 /*Smartphones*/
 @media (max-width: 410px) {
 
-  
+  nav {
+  	display: none;
+  }
+
+  .hero-text {
+		font-size: 22px;
+		line-height: 44px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+	.portfolio {
+		padding-top: 10px;
+	}
+
+	.project {
+		width: 297px;
+		height: 186px;
+		margin-left: auto;
+		margin-right: auto;
+	} 
+
+	.project img {
+		width: 296px;
+		height: 185px;	
+	}
+
+	.about-tyler-content {
+		padding: 10px 20px 10px 20px;
+	}
+
+	.about-text {
+		width: 100%;
+		padding: 0px;
+		float: none;
+	}
+
+	.thumbnails {
+		width: 100%;
+		height: auto;
+		float: none;
+		text-align: center;
+		margin: 30px 0px 10px 0px;
+	}
+
+	.thumbnails img:nth-child(n+2) {
+		display: none;
+	}
+
+	.get-in-touch-content img {
+		max-width: 40px;
+		margin: 35px 20px 35px 20px;
+	}
 
 }
 
