@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-	
+	$('#scene').parallax();
 
 });
 
-$('#scene').parallax();
