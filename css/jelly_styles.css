@@ -1,3 +1,10 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 .banner {
 	width: 104px;
 	height: 107px;
@@ -60,6 +67,12 @@
 	text-align: center;
 	margin-top: 4px;
 	margin-bottom: 4px;
+}
+
+.container {
+		background-image: url('../images/ocean.jpg');
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 ul {
