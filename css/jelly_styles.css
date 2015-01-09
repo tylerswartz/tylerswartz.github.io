@@ -88,9 +88,10 @@ ul {
 	top: 50px;
 	left: 400px;
 	opacity: 0.5;
-	-ms-transform: rotate(15deg); /* IE 9 */
-  -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
-  transform: rotate(15deg);
+  -webkit-animation: jelly-one 15s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 15s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 15s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 15s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #jelly2 img {
@@ -100,9 +101,10 @@ ul {
 	top: 0px;
 	left: 100px;
 	opacity: 0.5;
-	-ms-transform: rotate(10deg); /* IE 9 */
-  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
-  transform: rotate(10deg);
+  -webkit-animation: jelly-one 12s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 12s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 12s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 12s linear infinite; /* IE 10+, Fx 29+ */
 
 }
 
@@ -113,9 +115,10 @@ ul {
 	top: 200px;
 	left: 765px;
 	opacity: 0.5;
-	-ms-transform: rotate(13deg); /* IE 9 */
-  -webkit-transform: rotate(13deg); /* Chrome, Safari, Opera */
-  transform: rotate(13deg);
+  -webkit-animation: jelly-two 12s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-two 12s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-two 12s linear infinite; /* Opera 12+ */
+  animation:         jelly-two 12s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #jelly4 img {
@@ -125,9 +128,10 @@ ul {
 	top: 36px;
 	left: 398px;
 	opacity: 0.5;
-	-ms-transform: rotate(-5deg); /* IE 9 */
-  -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-  transform: rotate(-5deg);
+  -webkit-animation: jelly-two 15s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-two 15s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-two 15s linear infinite; /* Opera 12+ */
+  animation:         jelly-two 15s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #jelly5 img {
@@ -137,9 +141,10 @@ ul {
 	top: 187px;
 	left: 212px;
 	opacity: 0.5;
-	-ms-transform: rotate(7deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
+  -webkit-animation: jelly-three 20s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-three 20s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-three 20s linear infinite; /* Opera 12+ */
+  animation:         jelly-three 20s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #jelly6 img {
@@ -149,10 +154,67 @@ ul {
 	top: 160px;
 	left: 350px;
 	opacity: 0.5;
-	-ms-transform: rotate(5deg); /* IE 9 */
-  -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
-  transform: rotate(5deg);
+	-webkit-animation: jelly-three 25s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-three 25s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-three 25s linear infinite; /* Opera 12+ */
+  animation:         jelly-three 25s linear infinite; /* IE 10+, Fx 29+ */
 }
+
+/*Animation*/
+@-webkit-keyframes jelly-one {
+    from { -webkit-transform: rotate(5deg) translateX(10px) rotate(5deg); }
+    to   { -webkit-transform: rotate(365deg) translateX(10px) rotate(-355deg); }
+}
+@-moz-keyframes jelly-one {
+    from { -webkit-transform: rotate(5deg) translateX(10px) rotate(5deg); }
+    to   { -webkit-transform: rotate(365deg) translateX(10px) rotate(-355deg); }
+}
+@-o-keyframes jelly-one {
+    from { -webkit-transform: rotate(5deg) translateX(10px) rotate(5deg); }
+    to   { -webkit-transform: rotate(365deg) translateX(10px) rotate(-355deg); }
+}
+@keyframes jelly-one {
+    from { transform: rotate(5deg) translateX(10px) rotate(5deg); }
+    to   { transform: rotate(365deg) translateX(10px) rotate(-355deg); }
+}
+
+@-webkit-keyframes jelly-two {
+    from { -webkit-transform: rotate(10deg) translateX(15px) rotate(10deg); }
+    to   { -webkit-transform: rotate(370deg) translateX(15px) rotate(-350deg); }
+}
+@-moz-keyframes jelly-two {
+    from { -webkit-transform: rotate(10deg) translateX(15px) rotate(10deg); }
+    to   { -webkit-transform: rotate(370deg) translateX(15px) rotate(-350deg); }
+}
+@-o-keyframes jelly-two {
+    from { -webkit-transform: rotate(10deg) translateX(15px) rotate(10deg); }
+    to   { -webkit-transform: rotate(370deg) translateX(15px) rotate(-350deg); }
+}
+@keyframes jelly-two {
+    from { transform: rotate(10deg) translateX(15px) rotate(10deg); }
+    to   { transform: rotate(370deg) translateX(15px) rotate(-350deg); }
+}
+
+@-webkit-keyframes jelly-three {
+    from { -webkit-transform: rotate(12deg) translateX(15px) rotate(12deg); }
+    to   { -webkit-transform: rotate(372deg) translateX(15px) rotate(-348deg); }
+}
+@-moz-keyframes jelly-three {
+    from { -webkit-transform: rotate(12deg) translateX(15px) rotate(12deg); }
+    to   { -webkit-transform: rotate(372deg) translateX(15px) rotate(-348deg); }
+}
+@-o-keyframes jelly-three {
+    from { -webkit-transform: rotate(12deg) translateX(15px) rotate(12deg); }
+    to   { -webkit-transform: rotate(372deg) translateX(15px) rotate(-348deg); }
+}
+@keyframes jelly-three {
+    from { transform: rotate(12deg) translateX(15px) rotate(12deg); }
+    to   { transform: rotate(372deg) translateX(15px) rotate(-348deg); }
+}
+
+
+
+
 
 .clear-fix:after {
   content: ".";
