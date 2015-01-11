@@ -79,10 +79,10 @@ nav h4:last-of-type {
 	background-color: #D6D6D6;
 }
 
-/*.main-content {
+.main-content {
 	max-width: 900px;
 	margin: 0 auto;
-}*/
+}
 
 .badge {
 	height: 80px;
@@ -149,8 +149,8 @@ nav h4:last-of-type {
 
 .project {
 	margin-top: 25px;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
 	display: inline-block;
 	text-align: left;
 }
