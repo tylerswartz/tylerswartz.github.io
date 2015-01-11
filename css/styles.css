@@ -140,6 +140,50 @@ nav h4:last-of-type {
 }
 
 .portfolio {
+	padding: 0;
+	margin: 50px 0 20px 0;
+	text-align: center;
+}
+
+ul {
+	list-style: square;
+	list-style-position: outside;
+}
+
+.project {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+}
+
+.project-background {
+	width: 400px;
+	height: 300px;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.description {
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	font-size: 20px;
+	padding: 80px 20px;
+}
+
+.small-button {
+
+}
+
+/*.portfolio {
 	position: relative;
 	width: 100%;
 	padding-top: 50px;
@@ -164,7 +208,7 @@ nav h4:last-of-type {
 .project h4 {
 	margin-top: 10px;
 }
-
+*/
 .about-tyler {
 	width: 100%;
 	margin-top: 0px;
