@@ -160,13 +160,13 @@ ul {
 	width: 400px;
 	height: 300px;
 	text-decoration: none;
-	border-bottom: 1px solid #000;
-	background-size: cover;
+	background-size: contain;
 	position: relative;
 	display: block;
 }
 
 .description {
+	display: none;
 	text-align: center;
 	background: rgba(0,0,0,0.7);
 	position: absolute;
@@ -175,46 +175,37 @@ ul {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 80px 20px;
 }
 
+.project-background:hover .description {
+	display: block;
+}
+
+.description p {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
 .small-button {
-
+	text-decoration: none;
+	color: #fff;
+	background: #03A9F4;
+	padding: 8px 20px 8px 20px;
+	font-size: 16px;
 }
 
-/*.portfolio {
-	position: relative;
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: center;
-}
-
-.project {
-	margin-top: 25px;
-	margin-right: 30px;
-	margin-left: 30px;
-	display: inline-block;
+.project-name {
 	text-align: left;
-}
-
-.project img {
-	height: 225px;
-	width: 360px;
-	border: 1px solid #D6D6D6;
-}
-
-.project h4 {
 	margin-top: 10px;
 }
-*/
+
 .about-tyler {
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	background-color: #D6D6D6;
-	/*box-shadow: 0px 1px 10px #3d3e3d;*/
 }
 
 .about-tyler-content {
@@ -335,18 +326,6 @@ footer a {
 		font-size: 22px;
 	}
 	
-	.project {
-		width: auto;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 10px;
-	} 
-
-	.project img {
-		width: 296px;
-		height: 185px;	
-	}
-
 	.about-tyler-content {
 		padding: 10px 20px 10px 20px;
 	}
@@ -391,26 +370,6 @@ footer a {
 		padding-right: 25px;
 	}
 	
-	.portfolio {
-		padding-top: 10px;
-	}
-
-	.project {
-		width: auto;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 10px;
-	} 
-
-	.project img {
-		width: 296px;
-		height: 185px;	
-	}
-
-	.project h4 {
-		margin-top: 10px;
-	}
-
 	.about-tyler-content {
 		padding: 10px 20px 10px 20px;
 	}
