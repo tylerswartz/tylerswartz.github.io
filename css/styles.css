@@ -301,6 +301,14 @@ footer a {
 		font-size: 30px;
 	}
   
+	.description-mobile {
+		display: block;
+	}
+
+	.project-background:hover .description {
+		display: none;
+	}
+
 	.about-text {
 		width: 52%;
 		padding: 40px 15px 26px 35px;
@@ -336,6 +344,10 @@ footer a {
 	
 	.description-mobile {
 		display: block;
+	}
+
+	.project-background:hover .description {
+		display: none;
 	}
 
 	.about-tyler-content {
@@ -395,8 +407,13 @@ footer a {
 	.description {
 		padding: 0;
 	}
+
 	.description-mobile {
 		display: block;
+	}
+
+	.project-background:hover .description {
+		display: none;
 	}
 
 	.about-tyler-content {
