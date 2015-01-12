@@ -90,6 +90,32 @@ ul {
 	top: 50px;
 	left: 400px;
 	opacity: 0.5;
+  -webkit-animation: jelly-one 14s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 14s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 14s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 14s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+#jelly1a img {
+	height: 60px;
+	width: 60px;
+	position: relative;
+	top: 60px;
+	left: 460px;
+	opacity: 0.5;
+  -webkit-animation: jelly-one 15s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 15s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 15s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 15s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+#jelly1b img {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 30px;
+	left: 480px;
+	opacity: 0.5;
   -webkit-animation: jelly-one 15s linear infinite; /* Safari 4+ */
   -moz-animation:    jelly-one 15s linear infinite; /* Fx 5+ */
   -o-animation:      jelly-one 15s linear infinite; /* Opera 12+ */
@@ -97,8 +123,8 @@ ul {
 }
 
 #jelly2 img {
-	height: 65px;
-	width: 65px;
+	height: 50px;
+	width: 50px;
 	position: relative;
 	top: 0px;
 	left: 100px;
@@ -107,7 +133,58 @@ ul {
   -moz-animation:    jelly-one 12s linear infinite; /* Fx 5+ */
   -o-animation:      jelly-one 12s linear infinite; /* Opera 12+ */
   animation:         jelly-one 12s linear infinite; /* IE 10+, Fx 29+ */
+}
 
+#jelly2a img {
+	height: 65px;
+	width: 65px;
+	position: relative;
+	top: -10px;
+	left: 160px;
+	opacity: 0.5;
+  -webkit-animation: jelly-one 12s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 12s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 12s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 12s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+#jelly2b img {
+	height: 70px;
+	width: 70px;
+	position: relative;
+	top: 30px;
+	left: 50px;
+	opacity: 0.5;
+  -webkit-animation: jelly-one 13s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 13s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 13s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 13s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+#jelly2c img {
+	height: 70px;
+	width: 70px;
+	position: relative;
+	top: 150px;
+	left: 300px;
+	opacity: 0.5;
+  -webkit-animation: jelly-one 15s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 15s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 15s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 15s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+#jelly2d img {
+	height: 70px;
+	width: 70px;
+	position: relative;
+	top: 150px;
+	left: 610px;
+	opacity: 0.5;
+  -webkit-animation: jelly-one 15s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-one 15s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-one 15s linear infinite; /* Opera 12+ */
+  animation:         jelly-one 15s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #jelly3 img {
@@ -117,10 +194,10 @@ ul {
 	top: 200px;
 	left: 765px;
 	opacity: 0.5;
-  -webkit-animation: jelly-two 12s linear infinite; /* Safari 4+ */
-  -moz-animation:    jelly-two 12s linear infinite; /* Fx 5+ */
-  -o-animation:      jelly-two 12s linear infinite; /* Opera 12+ */
-  animation:         jelly-two 12s linear infinite; /* IE 10+, Fx 29+ */
+  -webkit-animation: jelly-two 14s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-two 14s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-two 14s linear infinite; /* Opera 12+ */
+  animation:         jelly-two 14s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #jelly4 img {
@@ -161,6 +238,20 @@ ul {
   -o-animation:      jelly-three 25s linear infinite; /* Opera 12+ */
   animation:         jelly-three 25s linear infinite; /* IE 10+, Fx 29+ */
 }
+
+#jelly6a img {
+	height: 120px;
+	width: 120px;
+	position: relative;
+	top: 60px;
+	left: 760px;
+	opacity: 0.5;
+	-webkit-animation: jelly-three 25s linear infinite; /* Safari 4+ */
+  -moz-animation:    jelly-three 25s linear infinite; /* Fx 5+ */
+  -o-animation:      jelly-three 25s linear infinite; /* Opera 12+ */
+  animation:         jelly-three 25s linear infinite; /* IE 10+, Fx 29+ */
+}
+
 
 /*Animation*/
 @-webkit-keyframes jelly-one {
