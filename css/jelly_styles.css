@@ -13,6 +13,19 @@ body {
   background-repeat: no-repeat;
 }
 
+.overlay {
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	color: #fff;
+	font-size: 18px;
+	padding: 80px 20px;
+}
+
 .banner {
 	width: 104px;
 	height: 107px;
@@ -305,10 +318,6 @@ ul {
     to   { transform: rotate(372deg) translateX(15px) rotate(-348deg); }
 }
 
-
-
-
-
 .clear-fix:after {
   content: ".";
   display: block;
@@ -317,3 +326,17 @@ ul {
   line-height: 0;
   height: 0;
 }
+
+
+
+/**/
+/*TILT OVERLAY FOR MOBILE AND TABLET*/
+/**/
+
+@media (max-width: 770px) {
+
+
+	
+}
+
+
