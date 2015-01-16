@@ -287,8 +287,43 @@ footer a {
   height: 0;
 }
 
+/*CVR PAGE SPECIFIC CSS*/
 
+.cvr-header {
+	height: 88px;
+}
 
+nav a {
+	text-decoration: none;
+	color: #000;
+}
+
+.main-text {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.title-lg {
+	padding-top: 40px;
+}
+
+.text-norm {
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.breakdown-list-title {
+	margin-top: 65px;
+}
+
+.breakdown-list {
+	list-style-type: none;
+}
+
+.breakdown-list li {
+	font-size: 22px;
+	line-height: 44px;
+}
 
 /**/
 /*RESPONSIVE STYLES*/
