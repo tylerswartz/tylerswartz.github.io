@@ -76,6 +76,7 @@ nav h4:last-of-type {
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-bottom: 1px;
 	background-color: #D6D6D6;
 }
 
@@ -324,6 +325,11 @@ nav a {
 	font-size: 22px;
 	line-height: 44px;
 }
+
+.breakdown-list a {
+	color: #000;
+}
+
 
 /**/
 /*RESPONSIVE STYLES*/
