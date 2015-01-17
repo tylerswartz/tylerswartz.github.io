@@ -290,8 +290,13 @@ footer a {
 
 /*CVR PAGE SPECIFIC CSS*/
 
+.badge-home-link {
+	text-decoration: none;
+	color: #000;
+}
+
 .cvr-header {
-	height: 88px;
+	height: 100px;
 }
 
 nav a {
@@ -329,6 +334,11 @@ nav a {
 .breakdown-list a {
 	color: #000;
 }
+
+.breakdown-list a:hover {
+	color: #03A9F4;
+}
+
 
 
 /**/
