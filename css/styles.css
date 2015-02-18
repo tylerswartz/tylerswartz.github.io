@@ -158,8 +158,8 @@ ul {
 }
 
 .project-background {
-	width: 400px;
-	height: 300px;
+	width: 320px;
+	height: 239px;
 	text-decoration: none;
 	background-size: contain;
 	position: relative;
@@ -177,7 +177,7 @@ ul {
 	bottom: 0;
 	color: #fff;
 	font-size: 18px;
-	padding: 80px 20px;
+	padding: 30px 20px;
 }
 
 .description-mobile {
