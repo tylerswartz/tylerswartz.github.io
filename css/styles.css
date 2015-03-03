@@ -180,7 +180,6 @@ nav h4:last-of-type {
 	animation-name: bounce; 
 }
 
-
 .portfolio {
 	padding: 0;
 	margin: 50px 0 20px 0;
@@ -422,7 +421,11 @@ nav a {
 	.hero-text {
 		font-size: 30px;
 	}
-  
+
+	.scroll-indicator {
+		display: none;
+	}
+
 	.description-mobile {
 		display: block;
 	}
@@ -462,6 +465,10 @@ nav a {
 
 	.hero-text {
 		font-size: 22px;
+	}
+
+	.scroll-indicator {
+		display: none;
 	}
 	
 	.description-mobile {
@@ -514,6 +521,10 @@ nav a {
 		line-height: 44px;
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+
+	.scroll-indicator {
+		display: none;
 	}
 	
 	.project {
