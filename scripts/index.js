@@ -11,5 +11,11 @@ $(document).ready(function() {
       scrollTop: $(".get-in-touch").offset().top
     }, 1500);
 	});
+
+	$(".scroll-indicator").click(function(){
+		$('html, body').animate({
+      scrollTop: $(".portfolio").offset().top
+    }, 1500);
+	});
 });
 
