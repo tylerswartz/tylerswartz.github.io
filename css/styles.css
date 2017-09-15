@@ -18,6 +18,8 @@ html, body {
 	color: #fff;
 }
 
+
+
 .css-typing {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white; /* The typwriter cursor */
